@@ -37,7 +37,7 @@ jobs:
         uses: actions/upload-pages-artifact@v2
         with:
           # Upload entire repository
-          path: 'https://github.com/IshanPChopade/SurgePortal/tree/b136c32ec96a1470e9d1cc7a7b1ecd137dfeb743/Site'
+          path: 'https://github.com/IshanPChopade/SurgePortal/tree/main/Site'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
